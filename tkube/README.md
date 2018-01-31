@@ -20,7 +20,7 @@ func main() {
 	if err != nil {
 		panic()
 	}
-	// create a new skube client
+	// create a new tkube client
 	k := tkube.New("https://mykubernetes:6443", token, ca)
 	
 	// do tkube stuff with it. 
